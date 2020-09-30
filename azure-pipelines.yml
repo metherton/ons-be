@@ -12,7 +12,7 @@ pool:
 steps:
 - task: MavenAuthenticate@0
   inputs:
-    artifactsFeeds: martinetherton63
+    artifactsFeeds: metherton_backend_packages
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
