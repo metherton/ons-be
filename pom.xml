@@ -20,7 +20,7 @@
 	<distributionManagement>
 		<repository>
 			<id>metherton_backend_packages</id>
-			<url>https://pkgs.dev.azure.com/martinetherton63/_packaging/martinetherton63/maven/v1</url>
+			<url>https://pkgs.dev.azure.com/martinetherton63/ons-be/_packaging/metherton_backend_packages/maven/v1</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -32,7 +32,7 @@
 	<repositories>
 		<repository>
 			<id>metherton_backend_packages</id>
-			<url>https://pkgs.dev.azure.com/martinetherton63/_packaging/martinetherton63/maven/v1</url>
+			<url>https://pkgs.dev.azure.com/martinetherton63/ons-be/_packaging/metherton_backend_packages/maven/v1</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
