@@ -17,6 +17,30 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	<distributionManagement>
+		<repository>
+			<id>martinetherton63</id>
+			<url>https://pkgs.dev.azure.com/martinetherton63/_packaging/martinetherton63/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</distributionManagement>
+	<repositories>
+		<repository>
+			<id>martinetherton63</id>
+			<url>https://pkgs.dev.azure.com/martinetherton63/_packaging/martinetherton63/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 
 	<dependencies>
 <!--		<dependency>-->
