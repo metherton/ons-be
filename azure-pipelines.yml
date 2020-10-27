@@ -23,16 +23,3 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'deploy'
-
-jobs:
-  - deployment: VMDeploy
-    displayName: web
-    environment:
-      name:  OnsBackend
-      resourceType: VirtualMachine
-      tags: web1
-    strategy:
-      runOnce:
-        deploy:
-          steps:
-            - script: echo my first deployment
