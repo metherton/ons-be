@@ -10,13 +10,36 @@
 	</parent>
 	<groupId>com.martinetherton</groupId>
 	<artifactId>ons</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>ons</name>
 	<description>ONS project for Spring Boot</description>
-
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	<distributionManagement>
+		<repository>
+			<id>metherton_backend_packages</id>
+			<url>https://pkgs.dev.azure.com/martinetherton63/ons-be/_packaging/metherton_backend_packages/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</distributionManagement>
+	<repositories>
+		<repository>
+			<id>metherton_backend_packages</id>
+			<url>https://pkgs.dev.azure.com/martinetherton63/ons-be/_packaging/metherton_backend_packages/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 
 	<dependencies>
 <!--		<dependency>-->
